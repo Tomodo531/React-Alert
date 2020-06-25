@@ -51,6 +51,8 @@
 }
 
 .alert__close {
+	display: flex;
+	padding: 5px 0 5px 0;
 	background: transparent;
 	border: none;
 	margin-left: auto;
@@ -67,6 +69,6 @@
 		opacity: 1;
 	}
 	100% {
-		opacity: 0;
+		opacity: 1;
 	}
 }
