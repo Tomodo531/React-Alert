@@ -7,7 +7,7 @@ function AlertTest() {
 	return (
 		<Fragment>
 			<button onClick={() => alert.error('Alert error')}>Error</button>
-			<button onClick={() => alert.success('Alert success')}>success</button>
+			<button onClick={() => alert.success('Alert success')}>Success</button>
 			<button onClick={() => alert.alert('Alert')}>Alert</button>
 		</Fragment>
 	);

@@ -27,7 +27,6 @@ export const ContextProvider = (props) => {
 		},
 		remove(index) {
 			const updatedAlerts = [ ...alerts ];
-			console.log();
 			updatedAlerts.splice(index, 1);
 			setAlerts(updatedAlerts);
 		},
